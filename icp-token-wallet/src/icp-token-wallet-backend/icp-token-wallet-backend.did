@@ -1,0 +1,6 @@
+
+service : {
+  "send": (text, text, nat) -> ();
+  "receive": (text, nat) -> ();
+  "get_balance": (text) -> (nat) query;
+}

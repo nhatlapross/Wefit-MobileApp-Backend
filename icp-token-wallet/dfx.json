@@ -1,0 +1,17 @@
+{
+  "canisters": {
+    "icp-token-wallet-backend": {
+      "candid": "src/icp-token-wallet-backend/icp-token-wallet-backend.did",
+      "package": "icp-token-wallet-backend",
+      "type": "rust"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
